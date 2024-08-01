@@ -1,6 +1,8 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /login/
-Disallow: /user/
-Disallow: /result/
-Disallow: /myChemistry/
+Disallow: /login
+Allow: /login$
+Disallow: /user
+Disallow: /result
+Allow: /result/hanni
+Disallow: /myChemistry
